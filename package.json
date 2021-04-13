@@ -91,7 +91,7 @@
     "@angular-eslint/eslint-plugin": "1.1.0",
     "@angular-eslint/eslint-plugin-template": "1.1.0",
     "@angular-eslint/schematics": "1.1.0",
-    "@angular-eslint/template-parser": "1.1.0",
+    "@angular-eslint/template-parser": "2.1.0",
     "@angular/animations": "^11.2.1",
     "@angular/cdk": "^11.2.1",
     "@angular/cli": "^11.2.1",
