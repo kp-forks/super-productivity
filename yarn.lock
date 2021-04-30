@@ -190,7 +190,7 @@
   resolved "https://registry.yarnpkg.com/@angular-eslint/builder/-/builder-4.0.0.tgz#ffc8b57a8c7f1567ac711c5f28047f4cc2b4ad0e"
   integrity sha512-XzNHqxardo06wp2mNuP2Gghx6d+1NXhEO15jpD3mONSCPTjay56o05fOtlmu5dbgKkEEtpiBRB40E8CI4k1vkw==
 
-"@angular-eslint/eslint-plugin-template@4.0.0", "@angular-eslint/eslint-plugin-template@^4.0.0":
+"@angular-eslint/eslint-plugin-template@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@angular-eslint/eslint-plugin-template/-/eslint-plugin-template-4.0.0.tgz#f24047f23a0f70a3a6c572274f57f91d841f2822"
   integrity sha512-JeczA5NJHRbTbt0COGo8lnCNi/UG9tofWt47NwbYcupIdtyx5CFZ+qBO7UgRoI2eA50DNOYdgLITZYPso3XFsg==
@@ -199,10 +199,26 @@
     aria-query "^4.2.2"
     axobject-query "^2.2.0"
 
-"@angular-eslint/eslint-plugin@4.0.0", "@angular-eslint/eslint-plugin@^4.0.0":
+"@angular-eslint/eslint-plugin-template@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@angular-eslint/eslint-plugin-template/-/eslint-plugin-template-4.2.0.tgz#2716583530bf2b20069076994816630e299ab67c"
+  integrity sha512-LC8qqqqVmA/OJAsUt6fQCXLmWP5BL30XFvVsPtrORdxMFt0HI1gvkuz5EVak7PeAXEmerdVarNZr5zmCXIWf3g==
+  dependencies:
+    "@typescript-eslint/experimental-utils" "4.16.1"
+    aria-query "^4.2.2"
+    axobject-query "^2.2.0"
+
+"@angular-eslint/eslint-plugin@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@angular-eslint/eslint-plugin/-/eslint-plugin-4.0.0.tgz#583aa69f68afd6f55f41a1539672bf2a182c5a50"
   integrity sha512-n2G+xS/Zli7nsCo/IkVmbnBjSNDxoxw0p1jUJPyJN6UVhiVca65Jm3/HUlYs+YkCc0vTS30BKSOpgC5grd6dDg==
+  dependencies:
+    "@typescript-eslint/experimental-utils" "4.16.1"
+
+"@angular-eslint/eslint-plugin@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@angular-eslint/eslint-plugin/-/eslint-plugin-4.2.0.tgz#134203c3ac340ae4ae76703434f636dc0a110d7d"
+  integrity sha512-G8D8Pso6GcHW8vFkUSvgoKPIOtGTqO+eb5aytGtpogMgzxBRyr0juU/9Uz5dAhO6TOERIj1gPpJQ61R/n/Aaew==
   dependencies:
     "@typescript-eslint/experimental-utils" "4.16.1"
 
@@ -1293,6 +1309,11 @@
     debug "^4.3.1"
     dir-compare "^2.4.0"
     fs-extra "^9.0.1"
+
+"@es-joy/jsdoccomment@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@es-joy/jsdoccomment/-/jsdoccomment-0.1.1.tgz#23c54b8803cd10a2455385a5b2d7c27d6b55c36d"
+  integrity sha512-6lIx5Pjc50D7VJU9lfRZ1twfIrIwQk+aeT9Ink2C07IUu/y9pxkIpDqmhY/VN3jAW42dA5z6ioOdyhOZZU1isw==
 
 "@eslint/eslintrc@^0.4.0":
   version "0.4.0"
@@ -5295,11 +5316,12 @@ eslint-plugin-import@2.22.1:
     resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
-eslint-plugin-jsdoc@32.3.3:
-  version "32.3.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-32.3.3.tgz#c430f5d289b6251cb1bf49585858b2335890dab3"
-  integrity sha512-WxXohbMYlZvCt3r7MepwT++nTLsO4CPegWcm5toM4IGq3MBmYkG+Uf5yDa+n1MwPXLg+KbJqAsI19hmkVD7MPg==
+eslint-plugin-jsdoc@33.0.0:
+  version "33.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-33.0.0.tgz#0aefe92706176b8c02c5a8ae721bf3b4705936a5"
+  integrity sha512-bkopnnuDdT04abKWPfDdD6XcAp2yX6UDpDViyvIdYmxbZYbpHXCRzQzLqCTo+SzWSTS0KFWz/V3shmmMr+x4EA==
   dependencies:
+    "@es-joy/jsdoccomment" "^0.1.1"
     comment-parser "1.1.5"
     debug "^4.3.1"
     jsdoctypeparser "^9.0.0"
@@ -6375,10 +6397,10 @@ googleapis-common@^5.0.2:
     url-template "^2.0.8"
     uuid "^8.0.0"
 
-googleapis@^72.0.0:
-  version "72.0.0"
-  resolved "https://registry.yarnpkg.com/googleapis/-/googleapis-72.0.0.tgz#fac456d25c8a0bd88ec7029adf9bc8a5fb93d46f"
-  integrity sha512-GMHXnZy86tLdFGkHd5G1mEWFGKO2+G8VFmk2my+mRCum0e5MOPQXG+PAvDVjVwCQJEOjPpBOZae53THRXaVm9w==
+googleapis@^73.0.0:
+  version "73.0.0"
+  resolved "https://registry.yarnpkg.com/googleapis/-/googleapis-73.0.0.tgz#8464ad2716d2400b6dab50fc1f47b374ed7919b8"
+  integrity sha512-bLLoHddONoEZCnhcTW603r7Y1fFqbFo0/3VdnzTNA4XQl+gVY3qycWmRSRrL15ts9Iwfg0rhTde5+OUuBFhi0g==
   dependencies:
     google-auth-library "^7.0.2"
     googleapis-common "^5.0.2"
