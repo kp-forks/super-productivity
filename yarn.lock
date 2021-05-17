@@ -12764,10 +12764,10 @@ wcwidth@^1.0.1:
   dependencies:
     defaults "^1.0.3"
 
-webdav@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/webdav/-/webdav-4.3.0.tgz#518f69a7c0ddf2e05f34b8160135bddb10bbf919"
-  integrity sha512-Fa8mw2OmdxCEWO4EO8po7h5t1Av4Mjbn4S4CwTT4TPwF1I58V1eF/lZfr8M2Cc+pYted45Y5ku0S7d1HUVcEgQ==
+webdav@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/webdav/-/webdav-4.4.0.tgz#7cb1482cc3838d1adc1072be696384daff3188da"
+  integrity sha512-1i18bcolPr6czMaR1sWKS0Ril9eJoEVzYtHV3Q0mSDyqiDUxRkwaNwgDs7wf4G/k+nmHsJsyeiOi0tG2MIizDQ==
   dependencies:
     axios "^0.21.1"
     base-64 "^1.0.0"
