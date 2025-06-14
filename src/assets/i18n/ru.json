@@ -486,7 +486,7 @@
     },
     "METRIC": {
       "BANNER": {
-        "CHECK": "Я это сделал!"
+        "CHECK": "Я сделал это!"
       },
       "CMP": {
         "AVG_BREAKS_PER_DAY": "Среднее количество перерывов в день",
@@ -610,7 +610,9 @@
         "MARK_AS_CHECKED": "Отметить обновления как отмеченные",
         "STATUS": "Статус",
         "SUMMARY": "Сводка",
-        "TYPE": "Тип"
+        "TYPE": "Тип",
+        "ATTACHMENTS": "Вложения",
+        "UPLOAD_ATTACHMENT": "Загрузить в задачу"
       },
       "ISSUE_STRINGS": {
         "ISSUE_STR": "комплекс работ",
@@ -621,7 +623,8 @@
         "POST_TIME_SUCCESS": "OpenProject: Успешно создана запись времени для {{issueTitle}}",
         "TRANSITION": "OpenProject: Установить значение {{name}} для проблемы \"{{issueKey}}\"",
         "TRANSITION_SUCCESS": "OpenProject: Установить значение <strong>{{chosenTransition}}</strong> для проблемы {{issueKey}}",
-        "TRANSITIONS_LOADED": "Переходы загружены. Используйте выбранные для назначения их"
+        "TRANSITIONS_LOADED": "Переходы загружены. Используйте выбранные для назначения их",
+        "ERR_NO_FILE": "Файл не выбран"
       }
     },
     "PLANNER": {
@@ -1356,7 +1359,7 @@
     "NO_CON": "Вы в настоящее время не в сети. Пожалуйста, переподключитесь к интернету.",
     "NONE": "Никто",
     "OK": "Хорошо",
-    "OVERDUE": "Просроченный",
+    "OVERDUE": "Просроченные",
     "PREVIOUS": "Предыдущий",
     "REMOVE": "Удалить",
     "RESET": "Сброс",
@@ -1753,6 +1756,7 @@
     "ADD_SCHEDULED_FOR_TOMORROW": "Добавить задачи, запланированные на завтра ({{nr}})",
     "ADD_SOME_TASKS": "Добавьте несколько задач, чтобы спланировать свой день!",
     "DONE_TASKS": "Выполненные задачи",
+    "DONE_TASKS_IN_ARCHIVE": "Нет выполненных задач, но некоторые из них уже заархивированы.",
     "ESTIMATE_REMAINING": "Осталось примерно:",
     "FINISH_DAY": "Закончить день",
     "FINISH_DAY_FOR_PROJECT": "Закончить день для этого проекта",
